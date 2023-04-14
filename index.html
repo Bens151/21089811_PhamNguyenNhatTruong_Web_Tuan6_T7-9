@@ -1,6 +1,8 @@
 <html>
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
         #wrapper {
             display: flex;
@@ -26,6 +28,10 @@
             width: 20%;
             justify-content: space-around;
             align-items: center;
+        }
+        
+        .input1 {
+            box-sizing: border-box;
         }
         
         #banner {
@@ -75,16 +81,16 @@
                 <div>Blog</div>
             </div>
             <div id="menu_logo">
-                <img src="logo.png" alt="anh logo">
+                <img src="image/logo.png" alt="anh logo">
             </div>
             <div id="menu_right">
-                <input type="search here">
-                <img src="Facebook 1.png" alt="">
-                <img src="YouTube 1.png" alt="">
+                <input class="input1" type="search here" placeholder="Search product">
+                <img src="image/Facebook 1.png" alt="">
+                <img src="image/YouTube 1.png" alt="">
             </div>
         </div>
         <div id="banner">
-            <img class="bannerimg" src="banner.png" alt="">
+            <img class="bannerimg" src="image/banner.png" alt="">
             <div>
                 <h1 class="textbanner1">Gift for your skin</h1> <br/>
                 <p class="textbanner2">Lorem ipsum dolor sit, amet consectetur adipisicing elt. <br> Iure quas eaque fuga id enim amet.
@@ -94,9 +100,11 @@
 
         </div>
         <div id="filter">
+        </div>
+        <div id="lineitem">
+            <p>Our Product</p>
 
         </div>
-        <div id="lineitem">lineitem</div>
         <div id="footer">footer</div>
     </div>
 </body>
